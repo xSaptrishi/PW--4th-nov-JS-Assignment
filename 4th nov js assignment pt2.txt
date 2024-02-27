@@ -1,0 +1,138 @@
+﻿Assignment : Javascript and its fundamentals
+
+
+Q1) Answer
+
+
+Javascript is a high level versatile programming language used in development. Its fundamental job is to add interactivity
+behaviour.Javascript is directly used in browser allowing developers to create new features.
+
+
+JavaScript interacts with the Document Object Model (DOM), which represents the webpage's structure. This
+interaction enables developers to manipulate and modify webpage content, styles, and layout in response to
+user actions. JavaScript also handles events, making it possible to create interactive web applications.
+
+
+Q2) Answer
+JavaScript is a high-level programming language used for adding interactivity and functionality to web pages.
+
+
+2. JavaScript includes variables, data types, and control structures like loops and conditionals, enabling you to create complex logic and algorithms.
+
+
+3. JavaScript runs in web browsers, making it a client-side technology. It executes on the user's device, enabling real-time user interactions.
+
+
+HTML
+
+
+1. HTML is a markup language used for structuring and presenting content on web pages.
+
+
+2. HTML defines the static structure of a webpage, including headings, paragraphs, lists, links,
+and images.
+
+
+3. HTML uses tags (e.g., <div>, <p>, <a>) to create elements that structure the content and provide semantic meaning.
+
+
+4. HTML's primary role is to define the content's structure and semantics, which browsers render as a web page.
+
+
+For example
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Interactive Web Page</title>
+<script>
+// JavaScript function to change the color of a text when clicked
+function changeColor() {
+var textElement = document.getElementById("myText");
+textElement.style.color = "blue";
+}
+</script>
+</head>
+<body>
+<h1>Welcome to My Interactive Web Page</h1>
+<p>This is a sample webpage with a <span id="myText"
+onclick="changeColor()">clickable text</span>.</p>
+</body>
+</html>
+
+
+Q3)
+
+
+1. Number:- The number data type represents numeric values. It can include integers, floating-point numbers, and special values like NaN (Not-a-Number) and Infinity.
+
+
+2. The string data type represents sequences of characters enclosed in single (' '), double (" "), or backticks (` `) quotes. Strings are used to represent text data.
+3. The boolean data type has only two values, true and false, and is used to represent logical values. Booleans are commonly used for conditions and comparisons.
+4. The null data type represents the intentional absence of any object value or a value that has been explicitly set to indicate no value. It is often used to initialize variables before assigning meaningful values.
+5. The undefined data type represents a variable that has been declared but has not been assigned a value. It is often the initial value of variables.
+Q4)
+
+
+The purpose of declaring variables in JavaScript is to reserve a memory location for storing data values that can be used throughout a program. Variables act as placeholders for data, making it easier to work with and manipulate information in your code. Declaring variables allows you to:
+
+
+1. Variables can store various types of data, such as numbers, text, and objects.
+2. You can perform operations on the data stored in variables, such as calculations,
+concatenations, and comparisons.
+3. Variables enable you to reuse values at different points in your code, reducing redundancy.
+4. Variables can be used to control the flow of your program through conditions and loops.
+
+
+Q5)
+
+
+Comments in JavaScript are essential for code readability, maintainability, and collaboration among
+developers .They serve several important purposes
+
+
+i}Documentation:
+
+
+ii}Debugging:
+
+
+iii}Communication:
+
+
+iv}Organization:
+
+
+Single-line Comment:
+
+
+// This is a single-line comment
+
+
+Multi-line Comment:
+
+
+/*
+This is a multi-line comment.
+*/
+
+
+Q6)
+
+
+Choosing meaningful and descriptive variable names in JavaScript is crucial for code readability and maintainability.
+1. Readability
+2. Code reviews
+3. Documentation
+4. Error preventing
+
+
+// Less Descriptive Variable Names
+let a = 10; // Price of the product
+let b = 5; // Quantity of the product
+let total = a * b; // Calculate total cost
+// More Descriptive Variable Names
+let productPrice = 10; // Price of the product
+let productQuantity = 5; // Quantity of the product
+let totalPrice = productPrice * productQuantity;

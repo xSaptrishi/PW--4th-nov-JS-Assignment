@@ -1,0 +1,165 @@
+﻿Assignment solutions
+
+
+Introduction to javascript operations
+
+
+Q1. Answer  Operators in JavaScript are symbols that perform operations on operands. Operands can be variables, values, or expressions.
+They are essential in programming because-
+
+
+(i)helps to solve logical operators
+(ii)perform arithmetic operations
+(iii)assign operators
+
+
+Q2. Answer
+1) Arithmetic operators:-Performs operations between two operands.
+
+
+(i) Addition(+)
+Const sum = 1+2 // sum is 3
+ 
+(ii)Subtraction(-)
+Const difference  = 2-1 // difference is 1
+
+
+(iii)Multiplication(*)
+Const product = 2*3 // product is 2
+
+
+(iv)Division(/)
+Const quotient = 6/2 // quotient is 2
+
+
+(V)Exponent(**)
+Const power = 2**3 // power is 8
+
+
+(vi)Modulo(%)
+Const remainder = 10%3 // remainder is 0
+
+
+2) Assignment operators(=) - Assigns values to variables
+
+
+Const myVariable = 10;
+
+
+(i) Addition assignment operators (+=)
+myVariable += 5; // myVariable is now equal to 15
+
+
+(ii)Subtraction assignment operators (-=)
+myVariable -= 5; // myVariable is equal to 5
+
+
+(iii)Multiplication assignment operator (*=)
+myVariable *= 5; // myVariable is equal to 50
+ 
+(iv)Division assignment operators (/=)
+myVariable /= 5; //myVariable is equal to 2
+
+
+(v)Modulo assignment operators (%=)
+myVariable %= 3; //myVariable is equal to 1 
+
+
+ 3) Comparison operators: These operators compare between two operands and return a value.
+  
+(i)Equal to (==)
+Const isEqual = 10 == 10 // isEqual is now true
+
+
+(ii) Not Equal to (!=)
+Const isNotEqual = 10 != 9 // isNotEqual is now true
+(iii) Greater than (>) 
+const isGreaterThan = 10 > 5; // isGreaterThan is now equal to true
+
+
+(iv) Less than (<)
+const isLessThan = 10 < 5; // isLessThan is now equal to false
+
+
+(v) Greater than or equal to (>=)
+const isGreaterThanOrEqual = 10 >= 10; // isGreaterThanOrEqual is now true
+
+
+(iv) Less than or equal to (<=)
+const isLessThanOrEqual = 10 <= 5; // isLessThanOrEqual is now equal to false
+
+
+4) Logical Operators: These operators perform logical operations on Boolean values
+
+
+(i) AND (&&)
+const isAndTrue = true && true; // isAndTrue is now equal to true
+const isAndFalse = true && false; // isAndFalse is now equal to false
+(ii) OR (||)
+const isOrTrue = true || false; // isOrTrue is now equal to true
+const isOrFalse = false || false; // isOrFalse is now equal to false
+(iii) NOT (!)
+const isNotTrue = !true; // isNotTrue is now equal to false
+const isNotFalse = !false; // isNotFalse is now equal to true
+
+
+Q3) Answer
+
+
+ Urinary operators : means that has only one operand.
+Examples - urinary plus, unary negation, logical Not , Increment , Decrement ,
+
+
+Binary operators : means that has two operands.
+
+
+Examples  + , - , * , / , % , == , < , > , <= , >= , && , || , != , === 
+
+
+Q4) Answer
+
+
+Precedence is the order in which operators are   evaluated for example 2+3*5 = 17 . So,here  * has higher precedence than others thus it is executed first then +.
+
+
+Associativity is the order in which same precedence are evaluated. Like some are evaluated from left to right and some right to left.
+
+
+For example- 10 + 5 + 2 = 17 , here it will be evaluated as  ( ( 10 + 5 ) + 2 ).
+
+
+Understanding these concepts are important as-
+(i)correct evaluation of expression
+(ii)predictable code 
+(iii)Debugging
+
+
+Q5) Answer
+
+
+ const principle = 1000
+const time = 2 // in years
+const rate = 5 
+const result = (principal * rate * time) / 100
+consol.log(“ Simple interest = ”, result)
+
+
+Q6) Answer
+
+
+const weight = 80 // in kg
+const height = 170 // in cm
+ 
+const BMI = weight (kg)/height * height
+console.log( “Body mass index is:”, BMI )
+
+
+Q7) Answer
+
+
+const radius = 10
+const pi = Math.PI
+
+
+const area = pi * Math.pow(radius 2)
+console.log(“ Area of circle is : ”, area)
